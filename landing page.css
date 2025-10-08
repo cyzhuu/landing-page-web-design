@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, rgb(11, 11, 110), rgb(67, 67, 229));
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(8, 8, 95), rgb(67, 67, 223));
+}
+
+header:hover {
+    background: linear-gradient(to left, rgb(8, 8, 95), rgb(61, 61, 216));
+    transition: 0.3s ease-in;
+}
+
+header .logo {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header .logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 85px;
+    transition: 0.3s;
+}
+
+header .logo img:hover {
+    scale: 1.2;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 40px;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+nav a:hover {
+    scale: 1.2;
+    border-radius: 12px;
+    background-color: blueviolet;
+    transition: 0.3s;
+}
+
+.isi {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 850px;
+    height: 450px;
+    background-color: snow;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.content:hover {
+    scale: 1.03;
+    box-shadow: 15px 15px 5px;
+}
+
+.content-header {
+    display: flex;
+}
+
+.content .gambar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content .pc {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.content .nunjuk {
+    width: 300px;
+    height: 300px;
+}
+
+.content .text {
+    width: 450px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.text a {
+    color: blueviolet;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+}
+
+.content-button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 150px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    transition: 0.3s;
+}
+
+.content-button a:hover {
+    scale: 1.07;
+}
