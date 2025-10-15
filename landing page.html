@@ -3,41 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome</title>
-    <link rel="stylesheet" href="landing page.css">
+    <title>firmware</title>
+    <link rel="stylesheet" href="firmware.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo-removebg-preview.png" alt="LOGO">
-        </div>
+    <div class="first-page">
+        <header>    
+            <div class="logo">
+                <p>CYZHUU</p>
+            </div>
 
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a>
-        </nav>
-    </header>
+            <navbar>
+                <a href="#">HOME</a>
+                <a href="#projek">PROJECT</a>
+                <a href="#skil">SKILLS</a>
+                <a href="#kontak">CONTACT</a>
+            </navbar>
+        </header>
 
-    <div class="isi">
-        <div class="content">
-            <div class="content-header">
-                <div class="text">
-                    <h1>Ill Help You To Make A <a>LANDING</a> Page.</h1>
-                    <p>Coding Enthusiast, I'am <a>ARSYA</a></p>
+        <div class="headline">
+            <div class="text">
+                <div class="hetlen">
+                    <p>SOFTWARE</p>
+                    <p>DEVELOPMENT</p>
                 </div>
+                <p class="kcl">I'll help you to make a website however you like</p> <br>
+                <a id="tombol" href="#">START NOW</a>
+            </div>
 
-                <div class="gambar">
-                    <img src="komputer-removebg-preview.png" alt="gambar">
+            <div class="content">
+                <img src="kucing1.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="second-page" id="projek">
+        <header>
+            <div class="about">
+                <br>
+                <br>    
+                <br>    
+                <br>    
+                <br>    
+                <br>    
+                <h1>Some project that i've done:</h1>
+                <p>Here are some project that i've done in my carrier life.</p>
+            </div>
+        </header>
+
+        <div class="services">
+            <br>  
+            <br>  
+            <div class="content-all">
+                <div class="content">
+                    <img src="kucing2.jpg">
+                </div>
+                <div class="content">
+                    <img src="kucing3.jpg">
+                </div>
+                <div class="content">
+                    <img src="kucing4.jpg">
                 </div>
             </div>
-        </div>       
-    </div>
-
-    <div class="button">
-        <div class="content-button">
-            <a href="#">CONTACT ME</a>
         </div>
     </div>
+
+    <div class="third-page" id="skil">
+        <div class="header">
+            <div class="isi">
+                <div class="porto">
+                    <h1>HERE ARE MY SKILLS</h1>
+                </div>
+
+                <div class="konten">
+                    <div class="content-all">
+                        <div class="content"><img src="html.jpg"></div>
+                        <div class="content"><img src="css.jpg"></div>
+                        <div class="content"><img src="js.jpg"></div>
+                        <div class="content"><img src="py.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="fourth-page" id="kontak">
+        <div class="header">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="isi">
+                <h1>CONTACT ME</h1>
+
+                <form class="contact-form" action="#" method="post">
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                    <label for="email">Your Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea><br><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
